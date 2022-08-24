@@ -1,0 +1,195 @@
+body{
+  margin: 0;
+  font-family: Roboto, Arial;
+}
+
+.forside-img{
+  width: 100%;
+}
+
+
+.forside-img-box{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-color: gray;
+}
+
+.forside-img-div{
+  overflow: hidden;
+  z-index: 50;
+  position: relative;
+}
+
+.serier-grid{
+  position: absolute;
+  bottom: -80px;
+  right: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: 50px 1fr 1fr 1fr 1fr 1fr 1fr 50px;
+  column-gap: 10px;
+  height: 160px;
+  overflow: hidden;
+  z-index: 100;
+}
+.serier-img{
+ width: 100%;
+ border-radius: 10px;
+ cursor: pointer;
+}
+
+.serier-img-side-left {
+  height: 100%;
+  float: right;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.serier-img-side-right {
+  height: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.forside-aldersgrense{
+  position: absolute;
+  right: 0px;
+  bottom: 300px;
+  background-color: black;
+  width: 100px;
+  color: white;
+  font-size: 23px;
+  opacity: 0.5;
+  padding: 10px;
+  padding-left: 12px;
+}
+
+
+.forside-info{
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 800px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent);
+  z-index: 98;
+}
+
+.forside-tittel{
+  position: absolute;
+  bottom: auto;
+  top: 200px;
+  left: 70px;
+  width: 700px;
+}
+
+.forside-tittel-img{
+  width: 100%;
+}
+
+.forside-beskrivelse{
+  position: absolute;
+  top: 525px;
+  left: 70px;
+  width: 700px;
+  color: rgb(224, 224, 224);
+  font-size: 21px;
+}
+
+
+.buttons-forside{
+  position: absolute;
+  top: 650px;
+  left: 70px;
+  width: 700px;
+}
+
+.spill-av-button{
+  top: 600px;
+  left: 70px;
+  font-size: 30px;
+  padding: 15px 40px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(204, 204, 204);
+  z-index: 100 text;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.mer-informasjon-button{
+  top: 600px;
+  left: 280px;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(92, 92, 92);
+  color: rgb(212, 209, 209);
+  cursor: pointer;
+}
+
+
+.header{
+  display: flex;
+  position: fixed;
+  z-index: 100;
+
+  flex-direction: row;
+  height: 65px;
+  background: linear-gradient(rgb(22, 22, 22), transparent);
+  top: 0;
+  right: 0;
+  left: 0;
+  justify-content: space-between;
+  z-index: 200;
+}
+
+
+.left-section{
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+}
+
+
+
+.netflix-logo{
+  height: 30px;
+  margin-right: 50px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.header-meny{
+ margin-right: 25px;
+ color: white;
+ font-size: 14px;
+ text-decoration: none;
+ font-weight: 400;
+ font-family: arial;
+}
+
+.andre-side{
+  height: 100vh;
+  background-color: rgb(46, 45, 45);
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+.netflix-side{
+  position: relative;
+}
+
+.farge{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -133px;
+  height: 200px;
+  background: linear-gradient(to top, rgb(46, 45, 45), rgb(46, 45, 45), rgb(46, 45, 45), rgb(46, 45, 45), transparent);
+  z-index: 99;
+}
